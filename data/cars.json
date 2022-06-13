@@ -1,0 +1,71 @@
+[{
+    "_id": "628be42ac6cb870fc5b0c0c7",
+    "name": "Versa Unique",
+    "brand": "Nissan",
+    "year": "2021",
+    "model": "Versa",
+    "price": 3990
+}, {
+    "_id": "628c1a5eb2fcb6a447addd3e",
+    "name": "Honda Civic",
+    "brand": "Honda",
+    "year": "2022",
+    "model": "Civic",
+    "price": 4990
+}, {
+    "_id": "628c1a87b2fcb6a447addd40",
+    "name": "Honda HRV",
+    "brand": "Honda",
+    "year": "2022",
+    "model": "HRV",
+    "price": 5990
+}, {
+    "_id": "628c1a94b2fcb6a447addd42",
+    "name": "Nissan Kicks",
+    "brand": "Nissan",
+    "year": "2022",
+    "model": "Kicks",
+    "price": 5990
+}, {
+    "_id": "628c1ab8b2fcb6a447addd44",
+    "name": "Creta",
+    "brand": "Hyundai",
+    "year": "2022",
+    "model": "Creta",
+    "price": 5990
+}, {
+    "_id": "628c1ac1b2fcb6a447addd46",
+    "name": "HB20",
+    "brand": "Hyundai",
+    "year": "2022",
+    "model": "HB20",
+    "price": 3990
+}, {
+    "_id": "628c1ae8b2fcb6a447addd48",
+    "name": "T-Cross",
+    "brand": "Wolkswagen",
+    "year": "2022",
+    "model": "T-Cross",
+    "price": 5990
+}, {
+    "_id": "628c1b06b2fcb6a447addd4a",
+    "name": "Fiat Argus",
+    "brand": "Fiat",
+    "year": "2022",
+    "model": "Argus",
+    "price": 3990
+}, {
+    "_id": "628c1b22b2fcb6a447addd4c",
+    "name": "Fiat Argo",
+    "brand": "Fiat",
+    "year": "2021",
+    "model": "Argo",
+    "price": 5990
+}, {
+    "_id": "628c1b3fb2fcb6a447addd4e",
+    "name": "Corolla",
+    "brand": "Toyota",
+    "year": "2021",
+    "model": "Corolla",
+    "price": 4990
+}]

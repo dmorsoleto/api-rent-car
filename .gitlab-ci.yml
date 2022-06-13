@@ -1,0 +1,35 @@
+variables:
+    NODE_ENV: test-ci
+
+stages:
+  - build
+  - deploy
+
+cache:
+  paths: 
+      - node_modules/
+
+build-job:
+  image: node:current-alpine3.15
+  services:
+    - mongo:4.4
+  stage: build
+  before_script:
+    - yarn install
+    - yarn build
+  script:
+    - echo "Testing code..."
+    - yarn test
+  only: 
+    - deploy
+
+deploy-job:
+  image: docker:stable
+  stage: deploy
+  services:
+      - docker:dind
+  script:
+    - echo "Generating image..."
+    - docker build -t arizona-test-image .
+  only: 
+    - deploy
