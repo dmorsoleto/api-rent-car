@@ -1,7 +1,7 @@
 # Rental Cars
 ## Author - Daniel Morsoleto
 
-API para teste da Arizona / Visto
+API para estudo de Jest e CI/CD. Feito com nodeJs e Typescript.
 
 ## Tech
 
